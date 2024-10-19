@@ -42,45 +42,45 @@ function App() {
     <div className="App">
       <Router>
         <Header />
-        <div className='mt-10'>
+        <div className=' mt-11'>
           <AuthProvider>
-          <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='history' element={<History />} />
-            <Route path='service' element={<Service />} />
-            <Route path='fq' element={<Fq />} />
-            <Route path='boardstaff' element={<Boardstarf />} />
-            <Route path='dogapplication' element={<Dogaplications />} />
-            <Route path='readytoadopt' element={<ReadytoAdopt />} />
-            <Route path='adoptioninfo' element={<Adoptioninfor />} />
-            <Route path='discount' element={<Discount />} />
-            <Route path='emotional' element={<Emotional />} />
-            <Route path='/details/:slug' element={<Details />} />
-            <Route path='apartmentsdogs' element={<Apartments />} />
-            <Route path='goldenRetriever' element={<GoldenRetriever />} />
-            <Route path='germanshepherd' element={<GermanShepard />} />
-            <Route path='labradorredtriever' element={<LabradorRetriever />} />
-            <Route path='austrelia' element={<Austrelia />} />
-            <Route path='maltese' element={<Maltese />} />
-            <Route path='pug' element={<Pug />} />
-            <Route path='chihuahua' element={<Chihuahua />} />
-            <Route path='toypoodle' element={<ToyPoodle />} />
-            <Route path='shihtzu' element={<ShihTzu />} />
-            <Route path='family' element={<Family />} />
-            <Route path='smaill_dogs' element={<Smaildogs />} />
-            <Route path='hypoallergenic' element={<Hypoallergenic />} />
-            <Route path='yorkshire' element={<Yorkshis_ />} />
-            <Route path='chihuahuas' element={<Chihuahuas />} />
-            <Route path='poodle' element={<Poodles_ />} />
-            <Route path='pomeranian' element={<Pomeranians_ />} />
-            <Route path='midum_breed' element={<Midium_breed />} />
-            <Route path='dobermann' element={<Dobermann />} />
-            <Route path='alaskan' element={<Alaskan />} />
-            <Route path='airedale' element={<Airedale />} />
-         
-          
-          </Routes>
-        </AuthProvider>
+            <Routes>
+              <Route path='/' element={<Home />} />
+              <Route path='history' element={<History />} />
+              <Route path='service' element={<Service />} />
+              <Route path='fq' element={<Fq />} />
+              <Route path='boardstaff' element={<Boardstarf />} />
+              <Route path='dogapplication' element={<Dogaplications />} />
+              <Route path='readytoadopt' element={<ReadytoAdopt />} />
+              <Route path='adoptioninfo' element={<Adoptioninfor />} />
+              <Route path='discount' element={<Discount />} />
+              <Route path='emotional' element={<Emotional />} />
+              <Route path='/details/:slug' element={<Details />} />
+              <Route path='apartmentsdogs' element={<Apartments />} />
+              <Route path='goldenRetriever' element={<GoldenRetriever />} />
+              <Route path='germanshepherd' element={<GermanShepard />} />
+              <Route path='labradorredtriever' element={<LabradorRetriever />} />
+              <Route path='austrelia' element={<Austrelia />} />
+              <Route path='maltese' element={<Maltese />} />
+              <Route path='pug' element={<Pug />} />
+              <Route path='chihuahua' element={<Chihuahua />} />
+              <Route path='toypoodle' element={<ToyPoodle />} />
+              <Route path='shihtzu' element={<ShihTzu />} />
+              <Route path='family' element={<Family />} />
+              <Route path='smaill_dogs' element={<Smaildogs />} />
+              <Route path='hypoallergenic' element={<Hypoallergenic />} />
+              <Route path='yorkshire' element={<Yorkshis_ />} />
+              <Route path='chihuahuas' element={<Chihuahuas />} />
+              <Route path='poodle' element={<Poodles_ />} />
+              <Route path='pomeranian' element={<Pomeranians_ />} />
+              <Route path='midum_breed' element={<Midium_breed />} />
+              <Route path='dobermann' element={<Dobermann />} />
+              <Route path='alaskan' element={<Alaskan />} />
+              <Route path='airedale' element={<Airedale />} />
+
+
+            </Routes>
+          </AuthProvider>
         </div>
 
         <Footer />
